@@ -13,6 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\DomCrawler\Crawler;
 use Doctrine\DBAL\Exception\UniqueConstraintViolationException;
 
+
 class ScrapController extends AbstractController
 {
     private $entityManager;   
